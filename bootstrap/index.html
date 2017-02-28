@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+
+    <title>Hello!</title>
+  </head>
+  <body>
+    <h5> Survey -Bootsrap <h5>
+
+    <form action = "submit.php">
+
+      <div class = "form-group">
+        <label> How is your day? </label>
+        <br>
+        <input class="form-control" type = "text" name = "howareyou">
+      </div>
+
+    <br>
+
+    <div class="form-group">
+      <label> Gender </label>
+    <div class = "radio">
+      <label>
+      <input type = "radio" name = "gender" value="male">
+      Male
+     </label>
+   </div>
+   <div class="radio">
+    <label>
+      <input type = "radio" name = "gender" value="female">
+      Female
+    </label>
+  </div>
+  <br>
+</div>
+
+
+    <div class= "form-group">
+      <label> Password </label>
+      <input class="form-control" type="password" name="password">
+    </div>
+
+
+
+    <h5> Check all the food below that you like: </h5>
+      <label> Tacos
+        <input type = "checkbox" name = "Tacos" value = "on">
+      </label>
+      <br>
+      <label> Fried Rice
+        <input type = "checkbox" name = "Fried Rice" value = "on">
+      </label>
+      <br>
+
+      <label> Catfish
+        <input type = "checkbox" name = "Catfish" value = "on">
+      </label>
+      <br>
+
+      <label> Sandwiches
+        <input type = "checkbox" name = "Sandwiches" value = "on">
+      </label>
+      <br>
+
+      <label> Burgers
+        <input type = "checkbox" name = "Burgers" value = "on">
+      </label>
+      <br>
+
+      <label> Fries
+        <input type = "checkbox" name = "Fries" value = "on">
+      </label>
+
+      <div class = "form-group">
+      <label> Which operating system to you use? </label>
+      <select class = "form-control" name = "OS">
+        <option value = "Windows"> Windows </option>
+        <option value="Linux"> Linux </option>
+        <option value="Plan 9"> Plan 9 </option>
+          <option value="Other"> Other </option>
+        </select>
+      </div>
+
+        <br>
+        <br>
+
+        <textarea name="comment"> Enter a comment. </textarea>
+
+        <br>
+        <br>
+        <button type="submit"> Submit </button>
+
+
+  </form>
+<!-- What is your name?
+What is your gender (use a radio box)?
+male
+female
+What is your password?
+Check all foods below that you like:
+Tacos
+Fried rice
+Catfish
+Sandwiches
+Burgers
+Fries
+Which operating system do you use (use a select box)?
+Windows
+OSX
+Linux
+Plan 9
+Other
+Do you have any questions (use textarea)? -->
+
+
+  </body>
+</html>
